@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        .tm-social{
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+  </head>
+  <body>
+<!--  NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- FIM NAV-->
+<!-- CARROUSEL-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://universoreverso.com.br/wp-content/uploads/2021/01/universal-monsters.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i1.wp.com/www.cinematorio.com.br/wp-content/uploads/2019/03/12angrymen02.jpg?fit=1280%2C720&ssl=1" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.estadao.com.br/resources/jpg/9/1/1491084901019.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!--FIM CARROUSEL-->
+<!-- JUMBOTROM-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+     </div>
+
+<!-- FIM JUMBOTROM-->
+<!-- CARD DECK-->
+<div class="container">
+    <div class="card-columns">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title that wraps to a new line</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <p>A well-known quote, contained in a blockquote element.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card bg-primary text-white text-center p-3">
+          <blockquote class="blockquote mb-0">
+            <p>A well-known quote, contained in a blockquote element.</p>
+            <footer class="blockquote-footer text-white">
+              <small>
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="..." class="card-img" alt="...">
+        </div>
+        <div class="card p-3 text-right">
+          <blockquote class="blockquote mb-0">
+            <p>A well-known quote, contained in a blockquote element.</p>
+            <footer class="blockquote-footer">
+              <small class="text-muted">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+  <!--FIM CARD DECK-->
+<!-- TEXTO E VIDEO-->
+<div class="row mt-5 mb-5">
+    <div class="col-md-6">
+        <h3>Texto Teste</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quibusdam tempore, officia cupiditate nesciunt harum. Odio rem quibusdam ipsa illo minus at ipsum id quam. Eum architecto dolore sed eius.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quo animi corporis modi ducimus nemo vero voluptate incidunt repudiandae inventore distinctio doloribus excepturi, illum explicabo et rerum enim ab earum.</p>
+    </div>
+    <div class="col-md-6">
+        <iframe class=" w-100"width="560" height="315" src="https://www.youtube.com/embed/zjcldz3IS9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<!--FIM Texto e Imagem-->
+<!-- FOrmulario-->
+<div class="row">
+    <div class="col-md-12">
+        <h4 class="text-center">
+        Entre em Contato com a gente
+        </h4>
+    </div>
+</div>
+<div class="row mt-5 d-flex align-items-center">
+    <div class="col-md-6">
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group d-flex justify-content-end mt-3">
+                <button class="btn btn-outline-success">Enviar</button>
+            </div>
+          </form>
+    </div>
+    <div class="col-md-6">
+        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9303885947274!2d-46.64623804977621!3d-23.57094346775528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bd92bce431%3A0xc37ded133806ef0b!2sAv.%20Paulista%2C%20100%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-000!5e0!3m2!1spt-BR!2sbr!4v1647902742084!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</div>
+
+
+<!-- FIM FOrmulario-->
+<!-- Rodapé-->
+<hr>
+<footer>
+    <div class="row mb-3 ">
+        <div class="col-md-12 d-flex justify-content-center">
+            <a href="http://www.github.com" target="_blank" class="p-3"><img class="tm-social " src="assets/img/github.png" alt=""></a>
+            <a href="http://www.linkedin.com" target="_blank" class="p-3"><img class="tm-social" src="assets/img/linkedin.png" alt=""></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center">Direitos Reservados Marcelo Abreu</p>
+        </div>
+    </div>
+ </footer>
+ <!-- FIM FOOTER--> 
+</div>
+
+<!--FIM TEXTO E VIDEO-->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
