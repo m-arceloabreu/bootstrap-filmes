@@ -1,0 +1,21 @@
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+.card-size{
+  width: 330px;
+  height: 450px;
+  overflow: hidden;
+}
+.cardhover{
+    color: transparent;
+    background-color: transparent;
+    transition: all ease-in 0.3s;
+    
+}
+.cardhover:hover{
+    display: block;
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.8;
+}
